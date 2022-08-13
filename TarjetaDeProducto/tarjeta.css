@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+}
+.card {
+background-color: white;
+width: 600px;
+height: 350px;
+display: flex;
+overflow: hidden;
+box-shadow: 0 5px 10px grey;
+border-radius: 10px;
+}
+.imagen{
+    background: url(./images/image-product-desktop.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+.content{
+    width: 50%;
+    height: 100%;
+}
+.categ{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.categ h3{
+font-size: 16px;
+padding: 20px;
+}
+.categ p{
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+   font-weight: 600;
+}
+.title{
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+    
+}
+.precio h2{
+    padding: 20px 5px 20px 20px;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(46, 98, 74);
+}
+.precio h3{
+    display: inline-block;
+    font-size: 13px;
+    color: grey;
+    padding: 0px 0px 0px 0px;
+    text-decoration: line-through;
+}
+.carrito button{
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: hsl(30, 38%, 92%);
+    font-weight: 800;
+    background-color: rgb(46, 98, 74);
+    border-radius: 5px;
+    width: 70%;
+    height: 36px;
+    border: none;
+}
+.carrito button:hover{
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
